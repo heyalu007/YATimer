@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD78D5F11CAAB62D005392E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD78D5F01CAAB62D005392E8 /* main.m */; };
+		FD78D5F41CAAB62D005392E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD78D5F31CAAB62D005392E8 /* AppDelegate.m */; };
+		FD78D5F71CAAB62D005392E8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD78D5F61CAAB62D005392E8 /* ViewController.m */; };
+		FD78D5FA1CAAB62D005392E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD78D5F81CAAB62D005392E8 /* Main.storyboard */; };
+		FD78D5FC1CAAB62D005392E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD78D5FB1CAAB62D005392E8 /* Assets.xcassets */; };
+		FD78D5FF1CAAB62D005392E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD78D5FD1CAAB62D005392E8 /* LaunchScreen.storyboard */; };
+		FD78D60A1CAAB62E005392E8 /* YATimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD78D6091CAAB62E005392E8 /* YATimerTests.m */; };
+		FD78D6151CAAB62E005392E8 /* YATimerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD78D6141CAAB62E005392E8 /* YATimerUITests.m */; };
+		FD78D6261CAAB64D005392E8 /* YATimer.m in Sources */ = {isa = PBXBuildFile; fileRef = FD78D6231CAAB64D005392E8 /* YATimer.m */; };
+		FD78D6271CAAB64D005392E8 /* YATimerBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = FD78D6251CAAB64D005392E8 /* YATimerBridge.m */; };
+		FD78D62A1CAAB71A005392E8 /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = FD78D6291CAAB71A005392E8 /* Util.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD78D6061CAAB62E005392E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD78D5E41CAAB62D005392E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD78D5EB1CAAB62D005392E8;
+			remoteInfo = YATimer;
+		};
+		FD78D6111CAAB62E005392E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD78D5E41CAAB62D005392E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD78D5EB1CAAB62D005392E8;
+			remoteInfo = YATimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD78D5EC1CAAB62D005392E8 /* YATimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YATimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD78D5F01CAAB62D005392E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD78D5F21CAAB62D005392E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FD78D5F31CAAB62D005392E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FD78D5F51CAAB62D005392E8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FD78D5F61CAAB62D005392E8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FD78D5F91CAAB62D005392E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD78D5FB1CAAB62D005392E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD78D5FE1CAAB62D005392E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD78D6001CAAB62D005392E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD78D6051CAAB62E005392E8 /* YATimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YATimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD78D6091CAAB62E005392E8 /* YATimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YATimerTests.m; sourceTree = "<group>"; };
+		FD78D60B1CAAB62E005392E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD78D6101CAAB62E005392E8 /* YATimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YATimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD78D6141CAAB62E005392E8 /* YATimerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YATimerUITests.m; sourceTree = "<group>"; };
+		FD78D6161CAAB62E005392E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD78D6221CAAB64D005392E8 /* YATimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YATimer.h; sourceTree = "<group>"; };
+		FD78D6231CAAB64D005392E8 /* YATimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YATimer.m; sourceTree = "<group>"; };
+		FD78D6241CAAB64D005392E8 /* YATimerBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YATimerBridge.h; sourceTree = "<group>"; };
+		FD78D6251CAAB64D005392E8 /* YATimerBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YATimerBridge.m; sourceTree = "<group>"; };
+		FD78D6281CAAB71A005392E8 /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		FD78D6291CAAB71A005392E8 /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD78D5E91CAAB62D005392E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD78D6021CAAB62E005392E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD78D60D1CAAB62E005392E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD78D5E31CAAB62D005392E8 = {
+			isa = PBXGroup;
+			children = (
+				FD78D5EE1CAAB62D005392E8 /* YATimer */,
+				FD78D6081CAAB62E005392E8 /* YATimerTests */,
+				FD78D6131CAAB62E005392E8 /* YATimerUITests */,
+				FD78D5ED1CAAB62D005392E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD78D5ED1CAAB62D005392E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD78D5EC1CAAB62D005392E8 /* YATimer.app */,
+				FD78D6051CAAB62E005392E8 /* YATimerTests.xctest */,
+				FD78D6101CAAB62E005392E8 /* YATimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD78D5EE1CAAB62D005392E8 /* YATimer */ = {
+			isa = PBXGroup;
+			children = (
+				FD78D6221CAAB64D005392E8 /* YATimer.h */,
+				FD78D6231CAAB64D005392E8 /* YATimer.m */,
+				FD78D6241CAAB64D005392E8 /* YATimerBridge.h */,
+				FD78D6251CAAB64D005392E8 /* YATimerBridge.m */,
+				FD78D6281CAAB71A005392E8 /* Util.h */,
+				FD78D6291CAAB71A005392E8 /* Util.m */,
+				FD78D5F21CAAB62D005392E8 /* AppDelegate.h */,
+				FD78D5F31CAAB62D005392E8 /* AppDelegate.m */,
+				FD78D5F51CAAB62D005392E8 /* ViewController.h */,
+				FD78D5F61CAAB62D005392E8 /* ViewController.m */,
+				FD78D5F81CAAB62D005392E8 /* Main.storyboard */,
+				FD78D5FB1CAAB62D005392E8 /* Assets.xcassets */,
+				FD78D5FD1CAAB62D005392E8 /* LaunchScreen.storyboard */,
+				FD78D6001CAAB62D005392E8 /* Info.plist */,
+				FD78D5EF1CAAB62D005392E8 /* Supporting Files */,
+			);
+			path = YATimer;
+			sourceTree = "<group>";
+		};
+		FD78D5EF1CAAB62D005392E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD78D5F01CAAB62D005392E8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD78D6081CAAB62E005392E8 /* YATimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD78D6091CAAB62E005392E8 /* YATimerTests.m */,
+				FD78D60B1CAAB62E005392E8 /* Info.plist */,
+			);
+			path = YATimerTests;
+			sourceTree = "<group>";
+		};
+		FD78D6131CAAB62E005392E8 /* YATimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD78D6141CAAB62E005392E8 /* YATimerUITests.m */,
+				FD78D6161CAAB62E005392E8 /* Info.plist */,
+			);
+			path = YATimerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD78D5EB1CAAB62D005392E8 /* YATimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD78D6191CAAB62E005392E8 /* Build configuration list for PBXNativeTarget "YATimer" */;
+			buildPhases = (
+				FD78D5E81CAAB62D005392E8 /* Sources */,
+				FD78D5E91CAAB62D005392E8 /* Frameworks */,
+				FD78D5EA1CAAB62D005392E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YATimer;
+			productName = YATimer;
+			productReference = FD78D5EC1CAAB62D005392E8 /* YATimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD78D6041CAAB62E005392E8 /* YATimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD78D61C1CAAB62E005392E8 /* Build configuration list for PBXNativeTarget "YATimerTests" */;
+			buildPhases = (
+				FD78D6011CAAB62E005392E8 /* Sources */,
+				FD78D6021CAAB62E005392E8 /* Frameworks */,
+				FD78D6031CAAB62E005392E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD78D6071CAAB62E005392E8 /* PBXTargetDependency */,
+			);
+			name = YATimerTests;
+			productName = YATimerTests;
+			productReference = FD78D6051CAAB62E005392E8 /* YATimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD78D60F1CAAB62E005392E8 /* YATimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD78D61F1CAAB62E005392E8 /* Build configuration list for PBXNativeTarget "YATimerUITests" */;
+			buildPhases = (
+				FD78D60C1CAAB62E005392E8 /* Sources */,
+				FD78D60D1CAAB62E005392E8 /* Frameworks */,
+				FD78D60E1CAAB62E005392E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD78D6121CAAB62E005392E8 /* PBXTargetDependency */,
+			);
+			name = YATimerUITests;
+			productName = YATimerUITests;
+			productReference = FD78D6101CAAB62E005392E8 /* YATimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD78D5E41CAAB62D005392E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = ihandysoft;
+				TargetAttributes = {
+					FD78D5EB1CAAB62D005392E8 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = V82KTSYL2C;
+					};
+					FD78D6041CAAB62E005392E8 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = V82KTSYL2C;
+						TestTargetID = FD78D5EB1CAAB62D005392E8;
+					};
+					FD78D60F1CAAB62E005392E8 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = V82KTSYL2C;
+						TestTargetID = FD78D5EB1CAAB62D005392E8;
+					};
+				};
+			};
+			buildConfigurationList = FD78D5E71CAAB62D005392E8 /* Build configuration list for PBXProject "YATimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD78D5E31CAAB62D005392E8;
+			productRefGroup = FD78D5ED1CAAB62D005392E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD78D5EB1CAAB62D005392E8 /* YATimer */,
+				FD78D6041CAAB62E005392E8 /* YATimerTests */,
+				FD78D60F1CAAB62E005392E8 /* YATimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD78D5EA1CAAB62D005392E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD78D5FF1CAAB62D005392E8 /* LaunchScreen.storyboard in Resources */,
+				FD78D5FC1CAAB62D005392E8 /* Assets.xcassets in Resources */,
+				FD78D5FA1CAAB62D005392E8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD78D6031CAAB62E005392E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD78D60E1CAAB62E005392E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD78D5E81CAAB62D005392E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD78D5F71CAAB62D005392E8 /* ViewController.m in Sources */,
+				FD78D6271CAAB64D005392E8 /* YATimerBridge.m in Sources */,
+				FD78D5F41CAAB62D005392E8 /* AppDelegate.m in Sources */,
+				FD78D5F11CAAB62D005392E8 /* main.m in Sources */,
+				FD78D6261CAAB64D005392E8 /* YATimer.m in Sources */,
+				FD78D62A1CAAB71A005392E8 /* Util.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD78D6011CAAB62E005392E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD78D60A1CAAB62E005392E8 /* YATimerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD78D60C1CAAB62E005392E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD78D6151CAAB62E005392E8 /* YATimerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD78D6071CAAB62E005392E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD78D5EB1CAAB62D005392E8 /* YATimer */;
+			targetProxy = FD78D6061CAAB62E005392E8 /* PBXContainerItemProxy */;
+		};
+		FD78D6121CAAB62E005392E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD78D5EB1CAAB62D005392E8 /* YATimer */;
+			targetProxy = FD78D6111CAAB62E005392E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD78D5F81CAAB62D005392E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD78D5F91CAAB62D005392E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD78D5FD1CAAB62D005392E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD78D5FE1CAAB62D005392E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD78D6171CAAB62E005392E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD78D6181CAAB62E005392E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD78D61A1CAAB62E005392E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				INFOPLIST_FILE = YATimer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ihandysoft.YATimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FD78D61B1CAAB62E005392E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				INFOPLIST_FILE = YATimer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ihandysoft.YATimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FD78D61D1CAAB62E005392E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YATimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ihandysoft.YATimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YATimer.app/YATimer";
+			};
+			name = Debug;
+		};
+		FD78D61E1CAAB62E005392E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YATimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ihandysoft.YATimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YATimer.app/YATimer";
+			};
+			name = Release;
+		};
+		FD78D6201CAAB62E005392E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YATimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ihandysoft.YATimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YATimer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FD78D6211CAAB62E005392E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YATimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ihandysoft.YATimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YATimer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD78D5E71CAAB62D005392E8 /* Build configuration list for PBXProject "YATimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD78D6171CAAB62E005392E8 /* Debug */,
+				FD78D6181CAAB62E005392E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD78D6191CAAB62E005392E8 /* Build configuration list for PBXNativeTarget "YATimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD78D61A1CAAB62E005392E8 /* Debug */,
+				FD78D61B1CAAB62E005392E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FD78D61C1CAAB62E005392E8 /* Build configuration list for PBXNativeTarget "YATimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD78D61D1CAAB62E005392E8 /* Debug */,
+				FD78D61E1CAAB62E005392E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FD78D61F1CAAB62E005392E8 /* Build configuration list for PBXNativeTarget "YATimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD78D6201CAAB62E005392E8 /* Debug */,
+				FD78D6211CAAB62E005392E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD78D5E41CAAB62D005392E8 /* Project object */;
+}
