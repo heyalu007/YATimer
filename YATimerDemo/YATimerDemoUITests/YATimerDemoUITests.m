@@ -1,18 +1,18 @@
 //
-//  YATimerUITests.m
-//  YATimerUITests
+//  YATimerDemoUITests.m
+//  YATimerDemoUITests
 //
-//  Created by ihandysoft on 16/3/29.
-//  Copyright © 2016年 ihandysoft. All rights reserved.
+//  Created by 何亚鲁 on 16/4/2.
+//  Copyright © 2016年 heyalu. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface YATimerUITests : XCTestCase
+@interface YATimerDemoUITests : XCTestCase
 
 @end
 
-@implementation YATimerUITests
+@implementation YATimerDemoUITests
 
 - (void)setUp {
     [super setUp];

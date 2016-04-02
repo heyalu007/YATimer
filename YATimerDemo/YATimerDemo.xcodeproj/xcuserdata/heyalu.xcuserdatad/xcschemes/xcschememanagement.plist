@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>YATimer.xcscheme</key>
+		<key>YATimerDemo.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>FD78D5EB1CAAB62D005392E8</key>
+		<key>7F59D1B41CB0161C005FED53</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FD78D6041CAAB62E005392E8</key>
+		<key>7F59D1CD1CB0161C005FED53</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FD78D60F1CAAB62E005392E8</key>
+		<key>7F59D1D81CB0161C005FED53</key>
 		<dict>
 			<key>primary</key>
 			<true/>

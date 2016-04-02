@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FD78D5EB1CAAB62D005392E8"
-               BuildableName = "YATimer.app"
-               BlueprintName = "YATimer"
-               ReferencedContainer = "container:YATimer.xcodeproj">
+               BlueprintIdentifier = "7F59D1B41CB0161C005FED53"
+               BuildableName = "YATimerDemo.app"
+               BlueprintName = "YATimerDemo"
+               ReferencedContainer = "container:YATimerDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FD78D6041CAAB62E005392E8"
-               BuildableName = "YATimerTests.xctest"
-               BlueprintName = "YATimerTests"
-               ReferencedContainer = "container:YATimer.xcodeproj">
+               BlueprintIdentifier = "7F59D1CD1CB0161C005FED53"
+               BuildableName = "YATimerDemoTests.xctest"
+               BlueprintName = "YATimerDemoTests"
+               ReferencedContainer = "container:YATimerDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FD78D60F1CAAB62E005392E8"
-               BuildableName = "YATimerUITests.xctest"
-               BlueprintName = "YATimerUITests"
-               ReferencedContainer = "container:YATimer.xcodeproj">
+               BlueprintIdentifier = "7F59D1D81CB0161C005FED53"
+               BuildableName = "YATimerDemoUITests.xctest"
+               BlueprintName = "YATimerDemoUITests"
+               ReferencedContainer = "container:YATimerDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FD78D5EB1CAAB62D005392E8"
-            BuildableName = "YATimer.app"
-            BlueprintName = "YATimer"
-            ReferencedContainer = "container:YATimer.xcodeproj">
+            BlueprintIdentifier = "7F59D1B41CB0161C005FED53"
+            BuildableName = "YATimerDemo.app"
+            BlueprintName = "YATimerDemo"
+            ReferencedContainer = "container:YATimerDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FD78D5EB1CAAB62D005392E8"
-            BuildableName = "YATimer.app"
-            BlueprintName = "YATimer"
-            ReferencedContainer = "container:YATimer.xcodeproj">
+            BlueprintIdentifier = "7F59D1B41CB0161C005FED53"
+            BuildableName = "YATimerDemo.app"
+            BlueprintName = "YATimerDemo"
+            ReferencedContainer = "container:YATimerDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FD78D5EB1CAAB62D005392E8"
-            BuildableName = "YATimer.app"
-            BlueprintName = "YATimer"
-            ReferencedContainer = "container:YATimer.xcodeproj">
+            BlueprintIdentifier = "7F59D1B41CB0161C005FED53"
+            BuildableName = "YATimerDemo.app"
+            BlueprintName = "YATimerDemo"
+            ReferencedContainer = "container:YATimerDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
